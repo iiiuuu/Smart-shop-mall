@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/sname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="zzzzzzzzzzzz"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/praise"
+        android:layout_alignBottom="@+id/praise"
+        android:layout_alignParentRight="true"
+        android:text="qqq"
+        />
+
+    <TextView
+        android:id="@+id/smessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sname"
+        android:layout_marginTop="20dp"
+        android:text="zzzzzzzzzzzz" />
+
+    <TextView
+        android:id="@+id/sphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/smessage"
+        android:layout_marginTop="21dp"
+        android:text="zzzzzzzzzzzz" />
+
+    <TextView
+        android:id="@+id/layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/smessage"
+        android:layout_alignBottom="@+id/smessage"
+        android:layout_toLeftOf="@+id/step"
+        android:text="qqq" />
+
+    <TextView
+        android:id="@+id/praise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sphone"
+        android:layout_alignBottom="@+id/sphone"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/layer"
+        android:text="qqqq" />
+
+</RelativeLayout>
